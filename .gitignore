@@ -23,3 +23,10 @@ go.work.sum
 
 # env file
 .env
+
+# Obsidian
+.obsidian/
+
+# Mac OS
+.DS_Store
+

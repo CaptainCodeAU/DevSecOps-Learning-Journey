@@ -1,6 +1,6 @@
 # DevSecOps Learning Journey
 
-A structured learning repository documenting my intensive 17-week DevSecOps journey. Features comprehensive notes, hands-on labs, projects, and resources organized using a systematic approach. Includes detailed documentation of DevOps practices, security integration, cloud technologies, and automation tools. Perfect for DevOps engineers, security professionals, and anyone transitioning into DevSecOps.
+A structured documentation of my intensive 17-week DevSecOps learning journey, featuring comprehensive notes, hands-on labs, projects, and resources organized using a systematic approach.
 
 ## 🎯 Course Overview
 
@@ -23,7 +23,21 @@ DevSecOps-Learning-Journey/
 ├── 04-Resources/            # Reference materials
 ├── 05-Diagrams/             # Visual content
 ├── 06-Daily-Notes/          # Daily learning logs
-└── 07-Archive/              # Deprecated or completed content
+└── 07-Archive/              # Deprecated content
+```
+
+### Module Structure
+Each module follows this consistent structure:
+```markdown
+M[XX]-[Module-Name]/
+├── 01-[topic]/
+│   ├── 01-[subtopic]/
+│   │   ├── 01-[content].md
+│   │   └── README.md
+│   └── README.md
+├── 02-[topic]/
+├── 03-practice/
+└── 04-resources/
 ```
 
 ## 🛠 Technologies Covered
@@ -45,62 +59,100 @@ DevSecOps-Learning-Journey/
 | M01 | DevSecOps & Cloud DevOps Intro | In Progress |
 | M02 | Linux & Shell Scripting | Pending |
 | M03 | Git & Corporate Branching Strategies | Pending |
-| ... | ... | ... |
+| M04 | Build Tools [Maven & NPM] | Pending |
+| M05 | CI/CD Tools | Pending |
+| M06 | SonarQube Deep Dive | Pending |
+| M07 | Security Tools | Pending |
+| M08 | Nexus | Pending |
+| M09 | Docker | Pending |
+| M10 | Kubernetes | Pending |
+| M11 | Azure DevOps | Pending |
+| M12 | Infrastructure as Code | Pending |
+| M13 | Monitoring | Pending |
+| M14 | Python For DevOps | Pending |
+| M15 | Career Development | Pending |
+| M16 | Projects | Pending |
+| M17 | Project Management | Pending |
 
-## 🎓 Learning Path
+## 🎓 17-Week Learning Path
 
-This repository follows a structured 17-week learning path:
-1. Foundational DevOps concepts
-2. Linux and automation
-3. Version control and collaboration
-4. CI/CD implementation
-5. Security integration
-6. Container orchestration
-7. Cloud infrastructure
-8. Monitoring and maintenance
+1. **Weeks 1-4: Foundation**
+   - DevSecOps fundamentals
+   - Linux and Shell scripting
+   - Version control with Git
+   - Build tools and automation
 
-## 🚀 Projects
+2. **Weeks 5-8: CI/CD & Security**
+   - CI/CD pipeline implementation
+   - Code quality with SonarQube
+   - Security tools integration
+   - Artifact management
 
-Key projects included in this learning journey:
-- End-to-end CI/CD pipeline implementation
-- Container orchestration with Kubernetes
-- Infrastructure automation with Terraform
-- Security implementation and integration
-- Monitoring system setup
+3. **Weeks 9-12: Containerization & Cloud**
+   - Docker containerization
+   - Kubernetes orchestration
+   - Azure DevOps
+   - Infrastructure as Code
 
-## 📖 How to Use This Repository
+4. **Weeks 13-17: Advanced Topics & Projects**
+   - Monitoring solutions
+   - Python automation
+   - Career development
+   - Hands-on projects
+   - Project management
 
-1. Start with the [Course Overview](./00-Meta/course-overview.md)
-2. Follow modules sequentially in the [Modules](./01-Modules/) directory
-3. Complete associated labs in the [Labs](./02-Labs/) directory
-4. Work on projects in the [Projects](./03-Projects/) directory
-5. Refer to [Resources](./04-Resources/) for additional materials
+## 📖 Navigation Guide
 
-## ✨ Key Features
+1. **Getting Started**
+   - Review [Course Overview](./00-Meta/course-overview.md)
+   - Set up your learning environment
+   - Familiarize with the repository structure
 
-- Structured learning modules
-- Hands-on labs and exercises
-- Real-world projects
-- Comprehensive documentation
-- Visual diagrams and flowcharts
-- Best practices and implementation guides
-- Security-first approach
+2. **Daily Learning**
+   - Follow modules sequentially
+   - Complete associated labs
+   - Document progress in daily notes
+   - Update module README files
+
+3. **Project Work**
+   - Apply concepts in practical projects
+   - Follow project guidelines
+   - Document implementation details
+   - Maintain project documentation
+
+## ✨ Repository Features
+
+- **Structured Learning**: Organized, progressive modules
+- **Comprehensive Documentation**: Detailed notes and guides
+- **Practical Implementation**: Hands-on labs and projects
+- **Progress Tracking**: Daily logs and module status
+- **Resource Library**: References and templates
+- **Visual Learning**: Diagrams and flowcharts
+
+## 🔍 Quick Links
+
+- [Contributing Guidelines](CONTRIBUTING.md)
+- [Change Log](CHANGELOG.md)
+- [License](LICENSE.md)
+- [Daily Notes Template](00-Meta/templates/daily-notes-template.md)
 
 ## 🤝 Contributing
 
-While this is a personal learning journey, suggestions and improvements are welcome:
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
+While this is a personal learning journey, thoughtful contributions are welcome:
+1. Review the [Contributing Guidelines](CONTRIBUTING.md)
+2. Fork the repository
+3. Create a feature branch
+4. Follow the established structure
+5. Submit a Pull Request
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
 
 ## 🙏 Acknowledgments
 
 - Course instructors and mentors
 - DevOps community
 - Open source contributors
+
+---

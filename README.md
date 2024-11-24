@@ -136,14 +136,6 @@ M[XX]-[Module-Name]/
 - [License](LICENSE.md)
 - [Daily Notes Template](00-Meta/templates/daily-notes-template.md)
 
-## 🤝 Contributing
-
-While this is a personal learning journey, thoughtful contributions are welcome:
-1. Review the [Contributing Guidelines](CONTRIBUTING.md)
-2. Fork the repository
-3. Create a feature branch
-4. Follow the established structure
-5. Submit a Pull Request
 
 ## 📜 License
 
